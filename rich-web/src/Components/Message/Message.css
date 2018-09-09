@@ -1,0 +1,79 @@
+.Message {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.GetMessage {
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  width: auto;
+  max-width: 70%;
+  padding-left: 4rem;
+}
+
+.GetMessage-img {
+  display: block;
+  position: relative;
+  width: 5rem;
+  top: 3rem;
+  right: 2.5rem;
+  border-radius: 50%;
+}
+
+.GetMessage-content {
+  background-color: white;
+  display: block;
+  height: auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.GetMessage-time {
+  display: inline-block;
+  position: absolute;
+  bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.SendMessage {
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  width: auto;
+  max-width: 70%;
+  padding-right: 4rem;
+}
+
+.SendMessage-img {
+  display: block;
+  position: relative;
+  width: 5rem;
+  top: 3rem;
+  left: calc(100% - 2.5rem);
+  border-radius: 50%;
+}
+
+.SendMessage-content {
+  background-color: white;
+  display: block;
+  height: auto;
+  padding: 1.5rem;
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.SendMessage-time {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 1.5rem;
+  padding: 0.5rem;
+}
+
+.SendMessage span {
+  display: inline-block;
+  position: relative;
+}

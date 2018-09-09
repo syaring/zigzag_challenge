@@ -1,0 +1,10 @@
+.Home-Newmsg {
+  background-image: linear-gradient(to right, #8772FF, #72a8ff);
+  letter-spacing: 0.3rem;
+}
+
+.Home-list {
+  height: calc(100vh - 14rem);
+  width: 100%;
+  overflow: scroll;
+}

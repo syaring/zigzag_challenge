@@ -1,0 +1,20 @@
+header, .Home-Newmsg {
+  color: white;
+  box-sizing: border-box;
+  height: 7rem;
+  font-size: 2rem;
+  padding: 2.5rem;
+  text-align: center;
+  display: block;
+}
+
+header {
+  background-color: #444A50;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
